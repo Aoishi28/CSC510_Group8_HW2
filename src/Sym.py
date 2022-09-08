@@ -30,7 +30,7 @@ class Sym:
             self._has[v] = 1 + self._has.get(v, 0)
  
 
-    def mid(self, col) -> str:
+    def mid(self, col="") -> str:
         '''
         Finds the mode of stored values
         '''

@@ -1,8 +1,9 @@
 import pytest
 from src.Num import Num
+from src.utils import *
 
 def test_num():
-    num=Num()
+    num =Num()
     for i in range(1,101):
         num.add(i)
 
