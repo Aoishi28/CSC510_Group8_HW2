@@ -25,7 +25,7 @@ class Num:
         self._has = {}
         self.isSorted  = False
         self.the = the
-        random.seed(self.the['seed'])
+        
 
     def nums(self):
         if not self.isSorted:
