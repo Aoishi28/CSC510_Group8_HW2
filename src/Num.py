@@ -1,5 +1,7 @@
 import math
 import random
+from src.utils import *
+
 class Num:
     '''
         Num summarize as stream of numbers
@@ -14,12 +16,12 @@ class Num:
             c: column position
             s: column name
         '''
-    def __int__(self, c=0, s=""):
+    def __init__(self, c=0, s=""):
         self.n=0
         self.at = c
         self.name = s
-        lo= math.inf
-        high = - math.inf
+        self.lo= math.inf
+        self.hi = - math.inf
         self._has = {}
         self.isSorted  = False
 
@@ -41,8 +43,8 @@ class Num:
         global the
         if v != "?":
             self.n = self.n + 1
-            self.lo = math.min(v, self.lo)
-            self.hi = math.max(v, self.hi)
+            self.lo = min(v, self.lo)
+            self.hi = max(v, self.hi)
             if len(self._has) < the['nums']:
                 pos = 1 + (len(self._has))
             elif random.randint(0,1)< (the['nums'] / self.n):
