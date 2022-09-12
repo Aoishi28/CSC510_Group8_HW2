@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Hello!! If you use this software, please cite it using the metadata from this file"
 title: "Updated Model"
-abstract: "This is the updated working model having classes and fucntions that can read a CSV file and generate summaries of columns like medians and standard deviation for numeric columns, mode and entropy for symbolic columns.
+abstract: "This is the updated working model having classes and functions that can read a CSV file and generate summaries of columns like medians and standard deviation for numeric columns, mode and entropy for symbolic columns."
 authors:
   - family-names: Chavan
     given-names: Ameya
