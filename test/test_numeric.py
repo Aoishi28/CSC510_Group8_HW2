@@ -1,6 +1,7 @@
 import pytest
 from src.Num import Num
 from src.utils import *
+import random
 
 def test_num():
     num =Num()
