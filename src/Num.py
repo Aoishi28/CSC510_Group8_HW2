@@ -4,7 +4,7 @@ from src.utils import *
 
 class Num:
     '''
-        Num summarize as stream of numbers
+        Num summarizes as stream of numbers
         Attributes:
             n: number of items seen
             at: column position
