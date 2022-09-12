@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Hello!! If you use this software, please cite it using the metadata from this file"
+title: "Updated Model"
+abstract: "This is the updated working model having classes and fucntions that can read a CSV file and generate summaries of columns like medians and standard deviation for numeric columns, mode and entropy for symbolic columns.
+authors:
+  - family-names: Chavan
+    given-names: Ameya
+  - family-names: Waghela
+    given-names: Amisha
+  - family-names: Das
+    given-names: Aoishi
+  - family-names: Shah
+    given-names: Kunal
+  - family-names: Mohan
+    given-names: Swarnamalya
+version: "1.0.1"
+date-released: "09/11/2022"
+doi: 10.5281/zenodo.7069232
