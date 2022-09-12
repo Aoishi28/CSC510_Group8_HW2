@@ -19,7 +19,7 @@ def coerce(s: str):
         try:
             string = float(s)
         except ValueError:
-            string = fun(re.search('^\s*(.+?)\s*$', s)).group(1)
+            string = fun(re.search('^\s*(.-)\s*$', s)).group(1)
         return string
     except Exception as e:
         print("Error 101: coerce_file_crashed")
@@ -78,3 +78,12 @@ def oo(t):
     '''
     print(o(t))
     return t
+
+def copy(t: dict):
+    u = {}
+    if type(t) != dict:
+        return t
+    for k,v in t.items():
+        u[k] = copy[v]
+
+    return u
