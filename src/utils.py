@@ -1,3 +1,4 @@
+from copy import deepcopy
 import pytest
 import re
 import math
@@ -80,6 +81,9 @@ def oo(t):
     return t
 
 def copy(t: dict):
+    
+    # deepcopy
+
     u = {}
     if type(t) != dict:
         return t
