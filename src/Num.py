@@ -26,9 +26,8 @@ class Num:
         self.isSorted  = False
         self.w = 1 if (s or "").find("-$") == -1 else -1
         self.the = the
-        random.seed(self.the['seed'])
         
-
+        
     def nums(self):
         if not self.isSorted:
             self._has =sorted(self._has.items())
