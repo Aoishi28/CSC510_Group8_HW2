@@ -3,6 +3,8 @@ import pytest
 import re
 import math
 import random
+import os
+import csv
 
 the = {}
 
@@ -46,7 +48,19 @@ def per(t, p):
     '''
     p = math.floor(((p or 0.5) * len(t)) + 0.5)
     return t[math.max(1, math.min(len(t), p))]
+
+def csv(fname: str, func) -> None:
     
+    sep = the['Seperator']
+    currentWorkingPath = os.path.dirname(__file__)
+    relativePath = os.path.join(currentWorkingPath, fname)
+    with open(relativePath, 'r') as file:
+        reader = csv.reader(file, delimiter=sep)
+        n = 0
+        for row in reader:
+            n = n + 1
+            func(row, n)
+
 def o(t):
     '''
     Generates a string from nested list
