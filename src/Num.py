@@ -28,7 +28,6 @@ class Num:
         self.the = the
         random.seed(self.the['seed'])
         
-
     def nums(self):
         if not self.isSorted:
             self._has =sorted(self._has.items())
