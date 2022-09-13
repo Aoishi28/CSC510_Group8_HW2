@@ -1,4 +1,5 @@
 from copy import deepcopy
+from fileinput import close
 import pytest
 import re
 import math
@@ -105,3 +106,26 @@ def copy(t: dict):
         u[k] = copy[v]
 
     return u
+
+def csv(fname,fun,      sep,src,s,t):
+  sep = fname.split(",")
+  src = open(fname)
+  while True:
+    s = src.read()
+    if not s:
+        return close(src)
+    else:
+        t={}
+        for s1 in sep:
+            t = coerce(s1)
+        fun(t)
+        
+#Maths
+def rnd(x, places):
+    mult = 10^(places or 2)
+    return math.floor(x * mult + 0.5) / mult
+
+#Add to `t`, return `x`.
+def push(t,x):
+    t.append(x)
+    return x 
