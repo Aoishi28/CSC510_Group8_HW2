@@ -21,7 +21,7 @@ class Cols:
 
         for cNum, cName in self.names():
 
-            isNumeric = re.search(r'^[A-Z]*', cName)        # Numeric columns begin with an uppercase letter
+            isNumeric = re.search(r'^[A-Z]', cName)        # Numeric columns begin with an uppercase letter
             col = Num(cNum,cName) if isNumeric else Sym(cNum,cName)
             all.append(col)
 
