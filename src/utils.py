@@ -107,7 +107,7 @@ def copy(t: dict):
 
     return u
 
-def csv(fname,fun,      sep,src,s,t):
+def csv(fname,fun):
   sep = fname.split(",")
   src = open(fname)
   while True:
