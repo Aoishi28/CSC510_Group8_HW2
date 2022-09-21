@@ -41,11 +41,11 @@
     $ pytest
     ```
   - Run tests using code:
-  ```bash
-  $ cd CSC510_Group8_HW2
-  $ cd test
-  $ python test_all.py
-  ```
+    ```bash
+    $ cd CSC510_Group8_HW2
+    $ cd test
+    $ python test_all.py
+    ```
 
 
 ## 🤔 Wish to contribute?
