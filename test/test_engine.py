@@ -1,4 +1,3 @@
-from ast import Num
 from test_csv import csv
 from test_data import DataTest
 from test_numeric import test_num, test_bignum
@@ -29,21 +28,21 @@ class TestEngine:
         self.fails = 0
         self.eg = {}
 
-    def runs(k):
-        if k not in eg:
+    def runs(self, k):
+        if k not in TestEngine.eg:
             return 
         old = {}
         for key, value in test_eg_the.items():
             old[key] = value
         if test_eg_the('dump'):
-            status == True
-            out = eg[k]
+            self.status == True
+            out = TestEngine.eg[k]
         else:
-            status == False
+            self.status == False
                 
             #//Apply some error catching
         for key, value in old.items():
             value = test_eg_the(key) 
-        msg = status and ((out == True and 'PASS') or 'FAIL') or 'CRASH'
-        print("!!!!!!", msg, k, status)
-        return out or err 
+        msg = self.status and ((out == True and 'PASS') or 'FAIL') or 'CRASH'
+        print("!!!!!!", msg, k, self.status)
+        return out or self.err 

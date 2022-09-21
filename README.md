@@ -34,12 +34,18 @@
     $ pip install -r requirements.txt
     ```
 
-
+### Code Testing:
   - Run tests using Pytest:
     ```bash
     $ cd CSC510_Group8_HW2
     $ pytest
     ```
+  - Run tests using code:
+  ```bash
+  $ cd CSC510_Group8_HW2
+  $ cd test
+  $ python test_all.py
+  ```
 
 
 ## 🤔 Wish to contribute?
