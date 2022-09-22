@@ -6,6 +6,7 @@ import math
 import random
 import os
 import csv
+import sys
 
 the = {}
 
@@ -119,6 +120,26 @@ def csv(fname,fun):
         for s1 in sep:
             t = coerce(s1)
         fun(t)
+
+def cli(t):
+    slots=t.keys()
+    arg=sys.argv
+    arg=arg[1:]
+    for slot in slots:
+        v=str(t[slot])
+        for n,x in enumerate(arg):
+            if(x=='-'+ slot[0] or x=='--'+slot):
+                v= v=="False" and "True" or v=="True" and "False" or arg[n+1]
+        t[slot]=coerce(v)
+
+    if(t['help']==True):
+        print("\n"+help+"\n")
+        exit()
+    return t
+
+
+
+
         
 #Maths
 def rnd(x, places):
