@@ -24,7 +24,7 @@ def coerce(s: str):
         try:
             string = float(s)
         except ValueError:
-            string = fun(re.search('^\s*(.-)\s*$', s)).group(1)
+            string = fun(re.search('^\s*(.+?)\s*$', s).group(1))
         return string
     except Exception as e:
         print("Error 101: coerce_file_crashed")
@@ -99,7 +99,7 @@ def oo(t):
 def copy(t: dict):
     
     # deepcopy
-
+    
     u = {}
     if type(t) != dict:
         return t
@@ -109,17 +109,15 @@ def copy(t: dict):
     return u
 
 def csv(fname,fun):
-  sep = fname.split(",")
-  src = open(fname)
-  while True:
-    s = src.read()
-    if not s:
-        return close(src)
-    else:
-        t={}
-        for s1 in sep:
-            t = coerce(s1)
-        fun(t)
+    filePath = os.path.join(os.path.dirname(__file__), fname)
+    rows=[]
+    with open(filePath, 'r') as f:
+        for _, line in enumerate(f):
+            row=[]
+            for col in line.strip().split(','):
+                row.append(coerce(col))
+            rows.append(row)
+    return rows
 
 def cli(t):
     slots=t.keys()

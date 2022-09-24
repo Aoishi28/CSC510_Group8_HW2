@@ -26,12 +26,12 @@ class Num:
         self.isSorted  = False
         self.w = 1 if (s or "").find("-$") == -1 else -1
         self.the = the
-        random.seed(self.the['seed'])
+        # random.seed(self.the['seed'])
         
         
-    def nums(self):
+    def nums(self) -> dict:
         if not self.isSorted:
-            self._has =sorted(self._has.items())
+            self._has = dict(zip(range(1, len(self._has)+1), sorted(self._has.values())))
             self.isSorted = True
         return self._has
 
