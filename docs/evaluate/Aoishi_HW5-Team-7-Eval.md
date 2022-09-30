@@ -12,7 +12,7 @@ URL: https://github.com/yzhu27/CSVAnalyser
 |DOI badge: exists| 3 | Visible in [GitHub Repository](https://github.com/yzhu27/CSVAnalyser) |
 |Docs: doco generated, format not ugly | 0 | No doco found|
 |Docs: what: point descriptions of each class/function (in isolation) | 3 | Explained in README.md|
-|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 1 |No such exapmles or tutorials found, README.md has the instructions on how to execute|
+|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 1 |No such examples or tutorials found, README.md has the instructions on how to execute|
 |Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing| 1 | A basic introduction to what the code does is provided|
 |Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|  0| No short videos or animations found|
 |Use of version control tools| 3 | GitHub was used by the team|
