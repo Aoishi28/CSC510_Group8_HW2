@@ -1,6 +1,6 @@
 URL: https://github.com/yzhu27/CSVAnalyser
 
-|Notes|assessment (Total : 38)|evidence|
+|Notes|Assessment (Total : 38)|Evidence|
 |-----|---------|----------|
 |Video1| 0| |
 |Video2| 0| |
