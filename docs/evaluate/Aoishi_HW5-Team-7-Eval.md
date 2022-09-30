@@ -10,7 +10,7 @@ URL: https://github.com/yzhu27/CSVAnalyser
 |Issues reports: there are **many**| 0 | No issues reported |
 |Issues are being closed| 0 | No issues reported |
 |DOI badge: exists| 3 | Visible in [GitHub Repository](https://github.com/yzhu27/CSVAnalyser) |
-|Docs: doco generated, format not ugly | 0 | No doco found|
+|Docs: doco generated, format not ugly | 1 | Basic documentation is there, but could have been made better|
 |Docs: what: point descriptions of each class/function (in isolation) | 3 | Explained in README.md|
 |Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 1 |No such examples or tutorials found, README.md has the instructions on how to execute|
 |Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing| 1 | A basic introduction to what the code does is provided|
