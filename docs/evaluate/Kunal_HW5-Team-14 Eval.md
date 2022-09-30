@@ -1,47 +1,34 @@
-|Type| Detail|
-|--------|-------|
-| Evaluated By | Kunal Shah |
-| ID | 200476757 |
-| Unity ID | kshah24 |
-| Team | 08 |
-| Project Link | [Group 14 Repo](https://github.com/mithildani/se22-hw1-grp14) |
+URL: https://github.com/mithildani/se22-hw1-grp14
 
-******
-******
-
-### Rubric:
-
-NOTE: Software Sustainability Evaluation skipped for the current project as discussed in Discord. [Link](https://discord.com/channels/1009547855301718107/1009549425288429608/1023416944101163069)
-
-|Notes|evidence|
-|-----|---------|
-|Video1| N/A | 
-|Video2| N/A | 
-|Workload is spread over the whole team | No ([Github contributor stats](https://github.com/mithildani/se22-hw1-grp14/graphs/contributors)) |
-|Number of commits| 61 commits in total |
-|Number of commits: by different people| mithildani -> 21 ; nehakale8 -> 12 ; ryelne -> 23 ; vanshmehta-7 -> 19 ; ritwik4690 -> 6 |
-|Issues reports: there are **many**| N/A |
-|Issues are being closed| N/A |
-|DOI badge: exists| Yes ([DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7023848.svg)) |
-|Docs: doco generated, format not ugly | N/A |
-|Docs: what: point descriptions of each class/function (in isolation) | N/A |
-|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| N/A | 
-|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing| N/A |
-|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.| N/A |
-|Use of version control tools| Yes (Git) |
-|Use of style checkers | N/A |
-|Use of code formatters. | No |
-|Use of syntax checkers. | No |
-|Use of code coverage | No |
-|Other automated analysis tools| Yes (Github Actions) |
-|Test cases exist| Yes |
-|Test cases are routinely executed| Yes ([Test Result](https://github.com/mithildani/se22-hw1-grp14/actions/runs/3087739930))|
-|The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up| No |
-|Issues are discussed before they are closed| N/A |
-|Chat channel: exists| No |
-|Test cases: a large proportion of the issues related to handling failing cases.| N/A |
-|Evidence that the whole team is using the same tools: everyone can get to all tools and files| Yes |
-|Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)| Yes |
-|Evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)| Yes |
-|Evidence that the members of the team are working across multiple places in the code base| Yes |
-|Short release cycles | Yes |
+|Notes|assessment|evidence|
+|-----|---------|----------|
+|Video1| 0| |
+|Video2| 0| |
+|Workload is spread over the whole team (one team member is often Xtimes more productive than the others... but nevertheless, here is a track record that everyone is contributing a lot)| 2 | Visible in Insights -> Contributors|
+|Number of commits| 2 | Present in Insights -> Contributors|
+|Number of commits: by different people| 3 | Present in Insights -> Contributors|
+|Issues reports: there are **many**|
+|Issues are being closed| - |Present in Issues|
+|DOI badge: exists| 3 |Visible in Repository|
+|Docs: doco generated, format not ugly | 2 |Assessed by viewing files|
+|Docs: what: point descriptions of each class/function (in isolation) | 1 | Explained in README.md|
+|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 1 |doc page entries, testcases in readme|
+|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing| 2 | Readme, docs file|
+|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|  0| |
+|Use of version control tools| 3 | |
+|Use of style checkers | 0 | |
+|Use of code formatters. | 0 ||
+|Use of syntax checkers. | 0 ||
+|Use of code coverage | 0 | code coverage badge is not there.|
+|Other automated analysis tools| 3 |Used auto doccumentation and github actions|
+|Test cases exist| 3 |test cases are in test folder|
+|Test cases are routinely executed| 3 |travis.yml|
+|The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up| 2 | |
+|Issues are discussed before they are closed| 0 |0 open issues|
+|Chat channel: exists| 0 ||
+|Test cases: a large proportion of the issues related to handling failing cases.| - |issues|
+|Evidence that the whole team is using the same tools: everyone can get to all tools and files| 3 | |
+|Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)| 2 | |
+|Evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)| - | |
+|Evidence that the members of the team are working across multiple places in the code base| 3 | |
+|Short release cycles | 3 | regular commits visible in the month of September under commits tab

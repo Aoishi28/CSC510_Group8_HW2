@@ -1,5 +1,4 @@
 import re
-
 from src.Sym import Sym
 from src.Num import Num
 from src.data import Data
