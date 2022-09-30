@@ -8,7 +8,7 @@ URL: https://github.com/mithildani/se22-hw1-grp14
 |Number of commits| 2 | Present in Insights -> Contributors|
 |Number of commits: by different people| 3 | Present in Insights -> Contributors|
 |Issues reports: there are **many**|
-|Issues are being closed| - |Present in Issues|
+|Issues are being closed| 3 |Present in Issues|
 |DOI badge: exists| 3 |Visible in Repository|
 |Docs: doco generated, format not ugly | 2 |Assessed by viewing files|
 |Docs: what: point descriptions of each class/function (in isolation) | 1 | Explained in README.md|
