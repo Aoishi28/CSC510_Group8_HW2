@@ -1,6 +1,6 @@
 
 # -- `Row` holds one record
-from src.utils import copy
+from utils import copy
 
 class Row:
 

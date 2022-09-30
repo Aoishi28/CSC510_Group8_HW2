@@ -1,6 +1,6 @@
 import math
 import random
-from src.utils import *
+from utils import *
 
 class Num:
     '''

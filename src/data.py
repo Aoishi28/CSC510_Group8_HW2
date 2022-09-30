@@ -1,8 +1,8 @@
 # `Data` is a holder of `rows` and their sumamries (in `cols`).
 from audioop import add
-from src.utils import csv, rnd, push
-from src.row import Row
-from src.cols import Cols
+from utils import csv, rnd, push
+from row import Row
+from cols import Cols
 
 class Data:
     def __init__(self, src):
