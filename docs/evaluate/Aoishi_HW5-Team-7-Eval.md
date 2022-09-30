@@ -21,7 +21,7 @@ URL: https://github.com/yzhu27/CSVAnalyser
 |Use of syntax checkers. | 0 | Not found|
 |Use of code coverage | 3 | Coverage badge is present in README|
 |Other automated analysis tools| 2 |Used github actions|
-|Test cases exist| 3 |Test cases are present in tests folder. [see here](https://github.com/yzhu27/CSVAnalyser/tree/main/tests)}|
+|Test cases exist| 3 |Test cases are present in tests folder. [see here](https://github.com/yzhu27/CSVAnalyser/tree/main/tests)|
 |Test cases are routinely executed| 3 |Test cases are executed|
 |The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up| 2 | File is present and instructions are available, but more tips could have been added|
 |Issues are discussed before they are closed| 0 |No issues found|
