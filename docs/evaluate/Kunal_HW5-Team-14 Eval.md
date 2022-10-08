@@ -26,9 +26,9 @@ URL: https://github.com/mithildani/se22-hw1-grp14
 |The files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up| 2 | |
 |Issues are discussed before they are closed| 0 |0 open issues|
 |Chat channel: exists| 0 ||
-|Test cases: a large proportion of the issues related to handling failing cases.| - |issues|
+|Test cases: a large proportion of the issues related to handling failing cases.| 0 |issues|
 |Evidence that the whole team is using the same tools: everyone can get to all tools and files| 3 | |
 |Evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)| 2 | |
-|Evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)| - | |
+|Evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)| 2 | |
 |Evidence that the members of the team are working across multiple places in the code base| 3 | |
 |Short release cycles | 3 | regular commits visible in the month of September under commits tab
